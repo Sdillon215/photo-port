@@ -9,7 +9,7 @@ function Gallery() {
     };
     return (
         <section>
-            <hi>{capitalizeFirstLetter(currentCategory.name)}</hi>
+            <h1>{capitalizeFirstLetter(currentCategory.name)}</h1>
             <p>{currentCategory.name}</p>
             <div>
                 <img
